@@ -1,0 +1,5 @@
+Basic aim of the project is to create a web page, 
+1> to take input file path
+2> take output file path
+3> take no by which the file needs to be split
+4> when we hit split we will get slitted files in the destination folder.
