@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Index_v1</title>
+<h1>Split Text File</h1>
+<br>
+<hr>
+<br>
+
+<style type="text/css">
+h1 {
+	color: black;
+	font: bold;
+	font-family: fantasy;
+}
+</style>
+</head>
+<body>
+
+	<form action="GetInputPath" method="post">
+
+		<table style="table-layout: auto;">
+			<tr>
+				<td>Input path:</td>
+				<td><input type="text" name="inputPath" required="required"></td>
+
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" value="Get File Count" style="background: aqua;resize: horizontal; page-break-after: auto;"></td>
+			</tr>
+			
+			<tr>
+			<td><canvas></canvas></td>
+			</tr>
+
+			<tr>
+				<td>Destination Path:</td>
+				<td><input type="text" name="destinationPath"
+					style="size: auto;"></td>
+			</tr>
+			<tr>
+				<td>Split By:</td>
+				<td><input type="text" name="splitBy" style="size: auto;"></td>
+			</tr>
+
+		</table>
+		<br>
+		<hr>
+		<br> <input type="submit" value="Split" style="background: aqua;resize:horizontal; width: 20%; font-size: larger; " >
+	</form>
+	<br>
+	<hr>
+	<br>
+
+
+</body>
+</html>
